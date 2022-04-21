@@ -267,6 +267,7 @@ int main(int argc, char *argv[]) {
 }
 */
 /*
+
 16.
 int main(int argc, char *argv[]) {
 	int a[100];
