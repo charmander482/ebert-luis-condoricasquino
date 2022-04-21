@@ -147,6 +147,23 @@ int main(int argc, char *argv[]) {
 }
 
 */
+#include <bitset>
+
+int main(int argc, char *argv[]) {
+	int a;
+	cout<<"INGRESE UN NUMERO entre 100 AL 999"<<endl;
+	cin>>a;
+	while(a<100 || a>999){
+		cout<<"ingrese un numero entre 100 al 999"<<endl;
+		cin>>a;
+	}
+	bitset<32> bina(a);
+	cout<<bina;
+	
+	
+	return 0;
+}
+/*
 9.
 int main(int argc, char *argv[]) {
 	int a;
@@ -160,6 +177,7 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+*/
 
 /*
 11.
@@ -179,6 +197,7 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 */
+
 /*
 12.
 int fibo(int a){
@@ -195,5 +214,68 @@ int fibo(int a){
 			cout <<fibo(i)<<"-";
 		return 0;
 	}
+*/
 
+
+/*
+13.
+int main(int argc, char *argv[]) {
+	int a;
+	int b;
+	cout<<"ingrese 2 numeros "<<endl;
+	cin>>a>>b;
+	if(a%b==0)
+		cout<<"b es divisor de a"<<endl;
+	if(b%a==0)
+		cout<<"a es divisor de b"<<endl;
+	if(a%b!=0 && b%a!=0)
+		cout<<"no son divisores"<<endl;
+	
+	
+	
+	
+	return 0;
+}
+*/
+/*
+14.
+int main(int argc, char *argv[]) {
+	int a;
+	int b;
+	int c;
+	int d;
+	cout<<"ingrese 3 notas "<<endl;
+	cin>>a>>b>>c;
+	d=(a+b+c)/3;
+	cout<<"promedio de los 3 alumnos? "<<d;
+	
+	return 0;
+}
+
+*/
+/*
+15.
+int main(int argc, char *argv[]) {
+	int a;
+	cout<<"ingrese la tabla del numero deseado"<<endl;
+	cin>>a;
+	for(int i=1;i<13;i++)
+		cout<<i<<" * "<<a<<" = "<<i*a<<endl;
+	
+	return 0;
+}
+*/
+/*
+16.
+int main(int argc, char *argv[]) {
+	int a[100];
+	int x;
+    cout<<"ingrese x veces ";
+	cin>>x;
+	for(int i=0;i<x;i++){
+		cin>>a[i];
+	}
+	
+	return 0;
+}
 */
