@@ -160,3 +160,23 @@ int main(int argc, char *argv[]) {
 	
 	return 0;
 }
+
+/*
+11.
+int main(int argc, char *argv[]) {
+	int a;
+	int b;
+	cout<<"ingrese 2 numeros "<<endl;
+	cin>>a>>b;
+	if(a>b)
+		cout<<"el mayor es "<<a;
+	if(b>a)
+		cout<<"el mayor es "<<b;
+	cout<<endl;
+	cout<<"media de los nueros es "<<(a+b)/2;
+	
+	
+	return 0;
+}
+*/
+
