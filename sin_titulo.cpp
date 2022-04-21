@@ -147,3 +147,16 @@ int main(int argc, char *argv[]) {
 }
 
 */
+9.
+int main(int argc, char *argv[]) {
+	int a;
+	float b;
+	cout<<"ingrese nuemro flotante"<<endl;
+	cin>>b;
+	a=b;
+	cout<<"resultado "<<a;
+	
+	
+	
+	return 0;
+}
