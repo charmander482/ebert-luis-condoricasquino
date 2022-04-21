@@ -179,4 +179,21 @@ int main(int argc, char *argv[]) {
 	return 0;
 }
 */
+/*
+12.
+int fibo(int a){
+	if(a < 2)
+		return a;
+	return fibo(a-1) + fibo(a-2);
+}
+	int main() {
+		int a;
+		cout<<"ingrese numero"<<endl;
+		cin >> a;
+		fibo(a);
+		for(int i=0;i<=a;i++)
+			cout <<fibo(i)<<"-";
+		return 0;
+	}
 
+*/
